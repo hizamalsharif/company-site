@@ -5,53 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home</title>
   <style>
-     nav ul {
-      display: flex;
-      list-style: none;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding: 0;
-      margin: 0;
-      background-color: #333;
-    }
-
-    nav ul li {
-      margin: 10px;
-    }
-
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      padding: 8px 12px;
-      display: block;
-    }
-
-    nav ul li a:hover {
-      background-color: #555;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .container {
-        padding: 10px;
-      }
-    }
+    
 
   body{
-    background-color: rgb(92, 148, 198);
+    background-image: url('image/خلفية.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: arial;
    
+  }
+  .q{
+    margin-top: 300px;
+    margin-bottom: 250px;
+    margin-left: 150px;
+    margin-right: 550px;
+    font-weight: bold;
+    color: #696666;
+    font-size: x-large;
   }
   h1{
     background-color: rgba(60, 59, 61, 0.973);
@@ -72,22 +45,37 @@
     font-weight: bold;
 
   }
-  .srv{
-    color: aliceblue;
+  button{
+
+    background-color: blue;
+    color: #f2f7fb;
     font-weight: bold;
-    float: right;
-    margin: 10px;
+    display: inline-block;
+    margin: 50px 400px 100px 150px;
+    width: 220px;
+    height: auto;
     font-size: 30px;
+    border-radius: 100px;
+    border: none;
+   padding: 10px;
+    
+  }
+  button a{
+    color: #f2f7fb;
     text-decoration: none;
+    
+    
   }
   nav{
     
-    margin-right: 200px;
-    margin-left: 200px;
-    color: #fff;
+    
+    margin-left: 800px;
+    color: #080808;
     padding: 16px;
     text-align: center;
     font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
   }
   nav ul{
     list-style: none;
@@ -100,53 +88,45 @@
 
   }
   nav a{
-    color: #fff;
+    color: #050505;
     text-decoration: none;
   }
   nav a:hover {
-    color: #ccc;
+    color: #a29e9e;
   }
   
   </style>
 <body>
- 
-  <div class="container">
-  <h1>حلول تقنية ذكية لتطوير اعمالك</h1>
+  
   <nav>
     <ul>
       <li>
-        <a href="index.html" >home</a>
+        <a href="index.html" >الصفحة الرئيسية</a>
       </li>
       <li>
-        <a href="about.html" >about</a>
+        <a href="about.html" >من نحن</a>
       </li>
       <li>
-        <a href="services.html" >services</a>
+        <a href="services.html" >خدماتنا</a>
       </li>
       <li>
-        <a href="contact.html" >contact</a>
+        <a href="contact.html" >المحتوئ</a>
       </li>
       <li>
-        <a href="portfolio.html" >portfolio</a>
+        <a href="portfolio.html" >إعمالنا</a>
       </li>
     </ul>
   </nav>
+<div class="q">
+    مرحبا بك في شركة بيزنس بلس، نقدم خدمات تقنية واستشارية <br>تساعد الشركات على النمو وتحقيق اهدافها بكفاءة واحترافية
+<button type="submit">
+    <a href="services.html" class="srv">أستكشف المزيد</a>
+    </button>
+</div>
 
-  <p>مرحبا بك في شركة بيزنس بلس، نقدم خدمات تقنية 
-    واستشارية تساعد
-     الشركات 
-     على النمو وتحقيق اهدافها بكفاءة واحترافية
-    </p>
-
-    <a href="services.html" class="srv">[تعرف على خدماتنا]</a>
-    </div>
-   <br>
-   
-   <br>
-   <br>
-   <br>
-   <br>
+    
 
 
 </body>
+ 
 </html>

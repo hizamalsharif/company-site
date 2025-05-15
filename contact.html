@@ -1,105 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>contact</title>
+
   <style>
-    body{
-      background-color: rgb(92, 148, 198);
-            font-family: Arial, Helvetica, sans-serif;
-            color: aliceblue;
-            direction: ltr;
-            text-align: center;
+    body {
+      background-image: url('image/background.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      font-family: arial;
     }
-    p{
+
+    p {
+      color: #a29e9e;
+      margin: 20px 400px 0 30px;
       font-weight: bold;
+      font-size: x-large;
 
     }
-    input{
+
+    .input {
       display: block;
-      height: 35px;
-      width: 200px;
+      height: 100px;
+      width: 300px;
       text-align: center;
-      margin: auto;
-      margin-bottom: 10px;
-     
-      
+      margin: 10px 400px 50px 200px;
+
+
     }
-    button{
-      width: 70px;
+
+    button {
+      width: 100px;
       height: 30px;
       padding: auto;
       font-weight: bold;
+      color: #f9f9fa;
+      background-color: blue;
+      border-radius: 15px;
+      border: none;
     }
-    footer{
+
+    footer {
+      color: #080808;
       font-weight: bold;
+      margin: 240px 400px 50px 150px;
+      
 
     }
-    nav{
-    
-    margin-right: 200px;
-    margin-left: 200px;
-    color: #fff;
-    padding: 0 16px 16px;
-    text-align: center;
-    font-weight: bold;
-  }
-  nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li{
-    display: inline-block;
-    margin-right: 20px;
 
-  }
-  nav a{
-    color: #fff;
-    text-decoration: none;
-  }
-  nav a:hover {
-    color: #ccc;
-  }
+    nav {
+
+      margin-left: 800px;
+      color: #080808;
+      padding: 16px;
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+
+    }
+
+    nav a {
+      color: #080808;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #a29e9e;
+    }
+
+    h1 {
+
+      font-weight: bold;
+      font-size: 50px;
+      margin: 20px 400px 0 300px;
+      color: #404090;
+    }
   </style>
 </head>
+
 <body>
-  <h1>تواصل معنا</h1>
+
   <nav>
     <ul>
       <li>
-        <a href="index.html" >home</a>
+        <a href="index.html">الصفحة الرئيسية</a>
       </li>
       <li>
-        <a href="about.html" >about</a>
+        <a href="about.html">من نحن</a>
       </li>
       <li>
-        <a href="services.html" >services</a>
+        <a href="services.html">خدماتنا</a>
       </li>
       <li>
-        <a href="contact.html" >contact</a>
+        <a href="contact.html">محتوى</a>
       </li>
       <li>
-        <a href="portfolio.html" >portfolio</a>
+        <a href="portfolio.html">إعمالنا</a>
       </li>
     </ul>
   </nav>
-
+  <h1>تواصل معنا</h1>
   <p>هل لديك مشروع؟ دعنا نساعدك في تحقيقة. تواصل معنا عبر النموذج التالي أو البريد الالكتروني</p>
   <br>
-
-  <input type="text" placeholder="enter your name">
-  <input type="email" placeholder="enter your email">
-  <input type="text" maxlength="100" placeholder="enter your maseege">
-  <br>
-  <button onclick="alert ('تم استلام طلبك، سنتواصل معك قريبا!')">أرسال</button>
-
+  <form method="post" class="input">
+    <input type="text" placeholder="enter your name"><br><br>
+    <input type="email" placeholder="enter your email"><br><br>
+    <input type="text" maxlength="100" placeholder="enter your maseege"><br>
+    <br>
+    <button type="submit">أرسال</button>
+  </form>
 
   <footer>
     <p>email:info@businessplus.com</p>
     <p>phone:0132456789</p>
     <p>address:yemen,sanaa</p>
   </footer>
+
 </body>
+
 </html>
